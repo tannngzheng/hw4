@@ -1,0 +1,7 @@
+%h1 Create New Movie
+
+= form_tag movies_path do
+
+  = render 'form', :movie => @movie
+
+  = submit_tag 'Save Changes'
